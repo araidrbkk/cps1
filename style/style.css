@@ -1,0 +1,81 @@
+@import url(reset.css);
+@import url(fonts.css);
+
+.side-bar {
+  position: fixed;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 320px;
+  box-shadow: 40px 0 25px 0 #e2e3e8;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.header {
+  padding-top: 18.73px;
+  margin-bottom: 50px;
+}
+
+.header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu__list {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+
+.menu__item {
+  margin-bottom: 32px;
+}
+
+.menu__link {
+  font-family: "TT Lakes Regular";
+  font-size: 16px;
+  color: #1b1c21;
+}
+
+.contacts__inner {
+  display: flex;
+  margin-bottom: 16px;
+}
+
+.contacts__btn {
+  margin-right: 16px;
+}
+
+.contacts__number {
+  display: flex;
+  flex-direction: column;
+}
+
+.number {
+  margin-bottom: 12px;
+  font-family: "TT Lakes Regular";
+  font-size: 16px;
+  color: #1b1c21;
+}
+
+.number-style {
+  font-family: "TT Lakes Bold";
+  font-size: 24px;
+}
+
+.lang__list {
+  display: flex;
+  font-family: "TT Lakes Regular";
+  font-size: 16px;
+  color: #1b1c21;
+}
+
+.lang__item {
+  margin-right: 7px;
+}
